@@ -24,7 +24,7 @@
     ]
      statusline_right_sections = [
         'major mode',
-        'minor mode lighters'
+        'minor mode lighters', 
         'fileformat',
         'cursorpos',
         'percentage'
