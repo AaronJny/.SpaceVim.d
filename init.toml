@@ -55,7 +55,7 @@
 # 关于模块的选项，请阅读各个模块的文档
 [[layers]]
     name = "autocomplete"
-    auto-completion-return-key-behavior = "complete"
+    auto-completion-return-key-behavior = "smart"
     auto-completion-tab-key-behavior = "cycle"
 
 # 禁用 shell 模块，禁用模块时，需要加入 enable = false
@@ -77,6 +77,9 @@
 [[layers]]
     name = "checkers"
 
+[[layers]]
+    name = "ui"
+
 # python语言支持
 [[layers]]
     name = "lang#python"
@@ -85,7 +88,7 @@
       '# @File    : `expand("%")`',
       '# @Author  : AaronJny', 
       '# @Time    : `strftime("%Y-%m-%d %T")`', 
-      '# @Desc    : '
+      '# @Desc    :'
     ]
 
 
